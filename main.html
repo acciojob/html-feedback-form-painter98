@@ -7,24 +7,26 @@
 </head>
 
 <body>
-	<form>
+	<form method="get">
 		<header>Feedback Form</header>
-	<br>
-	<label for="name">Name</label>
-		<input type="text" id="name" placeholder="enter name" min="3" max="50" required> 
-		<br>
-	<label for="favcolor">Favourite Color</label>
-	<select id="favcolor">
-		<option value="red">red</option>
-		<option value="blue">blue</option>
-		<option value="green">green</option>
-	</select>
-		<br>
-	<label for="portfolio">Portfolio</label>
-		<input type="url" id="portfolio" placeholder="enter portfolio link">
-	    <br>
-	<label for="likeness">Likeness</label>
-	    <input type="range" id="likeness" min="0" max="100">
+			<br>
+		<label for="name">Name</label>
+			<input type="text" id="name" placeholder="enter name" minlength="3" maxlength="50" required> 
+			<br>
+		
+		<label for="portfolio">Portfolio</label>
+			<input type="url" id="portfolio" placeholder="enter portfolio link">
+		    <br>
+		<label for="favcolor">Favourite Color</label>
+		<select id="favcolor">
+			<option value="red">red</option>
+			<option value="blue">blue</option>
+			<option value="green">green</option>
+		</select>
+			<br>
+		<label for="likeness">Likeness</label>
+		    <input type="range" id="likeness" min="0" max="100">
+		<button>submit</button>
 	</form>
 	
 	
