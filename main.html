@@ -7,18 +7,18 @@
 </head>
 
 <body>
-	<form method="get">
+	<form method="post">
 		<header>Feedback Form</header>
 			<br>
-		<label for="name">Name</label>
-			<input type="text" id="name" placeholder="enter name" minlength="3" maxlength="50" required> 
+		<label for="name" invalid>Name</label>
+			<input class="name" type="text" id="name" placeholder="enter name" minlength="3" maxlength="50" required> 
 			<br>
 		
 		<label for="portfolio">Portfolio</label>
 			<input type="url" id="portfolio" placeholder="enter portfolio link">
 		    <br>
 		<label for="favcolor">Favourite Color</label>
-		<select id="favcolor">
+		<select type="color" id="favcolor">
 			<option value="red">red</option>
 			<option value="blue">blue</option>
 			<option value="green">green</option>
